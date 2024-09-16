@@ -228,7 +228,29 @@ section {
     line-height: 3rem;
 }
 
-.container-slim {
+.img-responsive {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    color: #2F2F2F;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    vertical-align: middle;
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 50%;
+    text-align: center!important;
+    height: 150px;
+    width: auto;
+    border: 6px solid #0275d8;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+.resume-box {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     font-size: 1rem;
