@@ -61,11 +61,6 @@
     padding-bottom: 20px;
  }
 
-
- .colour-splash {
-    color: #1abc9c;
- }
-
  .section-primary span {
     color: #1abc9c;
     font-weight: bolder;
@@ -103,7 +98,7 @@
     width: 100%;
     height: 100%;
     background: #111111;
-    opacity: .7;
+    opacity: .35;
  }
 
  .intro {
@@ -464,8 +459,15 @@ footer p {
 
     }
 
-    .intro-desc {
+    .intro-desc span {
         font-size: 0.7em;
+        font-weight: bold; /* Makes the text bold */
+        letter-spacing: 0.05em; /* Increases space between letters */
+    }
+
+    .colour-splash-intro {
+        font-weight: normal; /* Keep the '•' symbols normal weight */
+        letter-spacing: normal; /* Don't increase spacing for the dots */
     }
 
     .section-image span {
