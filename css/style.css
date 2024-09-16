@@ -259,15 +259,24 @@ section {
     -webkit-tap-highlight-color: transparent;
     font-size: 1rem;
     color: #2F2F2F;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     box-sizing: inherit;
-    width: 640px;
+    width: 100%; /* Set width to 100% for mobile */
+    max-width: 640px; /* Limit max width to 640px for larger screens */
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    padding: 0 15px; /* Add padding to prevent text from hitting screen edges */
+}
+
+/* Optional: Adjust font size for smaller screens using a media query */
+@media (max-width: 768px) {
+    .resume-box {
+        font-size: 0.9rem; /* Slightly smaller font size for mobile */
+    }
 }
 
 .section-primary p {
